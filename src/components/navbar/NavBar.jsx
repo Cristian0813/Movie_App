@@ -72,7 +72,7 @@ const NavBar = () => {
                         <a href="/">
                             <img
                                 src="./src/assets/movie.svg"
-                                alt="Icono de películas"
+                                alt="Imdb peliculas y series"
                                 height="40"
                                 className="d-inline-block align-top"
                             />
