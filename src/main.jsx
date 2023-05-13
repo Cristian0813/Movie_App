@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App.jsx'
 import './index.css'
 
 import {
@@ -11,12 +10,14 @@ import PeliculasTv from './views/peliculastv/PeliculasTv.jsx';
 import Peliculas from './views/peliculas/Peliculas.jsx';
 import Series from './views/series/Series.jsx';
 import SearchSeriesPeliculas from './components/searchseriespeliculas/SearchSeriesPeliculas.jsx';
+import NavBar from './components/navbar/Navbar.jsx';
 
 
 
 const router = createBrowserRouter([
+  
   {
-    path: "/Inicio",
+    path: "/",
     element: <PeliculasTv />
   },
   {
@@ -35,7 +36,7 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <App />
+    <NavBar />
     <RouterProvider router={router} />
   </React.StrictMode>,
 ) 
