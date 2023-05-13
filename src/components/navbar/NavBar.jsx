@@ -6,7 +6,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import SearchSeriesPeliculas from '../searchseriespeliculas/SearchSeriesPeliculas';
 import MensajeError from '../mensajedeerror/MensajeError';
-
+import icon from '../../assets/movie.png'
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 
@@ -71,7 +71,7 @@ const NavBar = () => {
                     <Navbar.Brand>
                         <a href="/">
                             <img
-                                src="./src/assets/movie.svg"
+                                src={icon}
                                 alt="Imdb peliculas y series"
                                 height="40"
                                 className="d-inline-block align-top"
