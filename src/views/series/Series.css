@@ -1,0 +1,13 @@
+.cardHeight {
+    height: 500px;
+}
+.cardImg{
+    height: 300px;
+}
+.cardTitle{
+    font-size: calc(1.2rem + (1.8 - 1.2) * ((100vw - 320px) / (1920 - 320)));
+    color: #212529;
+}
+.cardText{
+    font-size: calc(0.8rem + (1 - 0.8) * ((100vw - 320px) / (1920 - 320)));
+}
